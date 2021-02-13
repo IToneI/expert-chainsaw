@@ -1,5 +1,11 @@
 ﻿#include <iostream>
 
+struct spisok {
+	int abc;
+	int fgh;
+
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
