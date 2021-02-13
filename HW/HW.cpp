@@ -1,9 +1,9 @@
 ﻿#include <iostream>
 
-struct spisok {
-	int abc;
-	int fgh;
-
+struct matrix {
+	int m;
+	int n;
+    double* data;
 };
 
 int main()
