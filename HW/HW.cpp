@@ -45,6 +45,7 @@ void funprint(matrix& a) {
         }
         cout << endl;
     }
+
 }
 
 matrix timesmatrix(matrix a, matrix b){
