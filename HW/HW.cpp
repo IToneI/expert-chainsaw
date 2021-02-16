@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include<math.h>
+#include "arrays.h";
 #define PI 3.14
 using namespace std;
 
@@ -87,7 +88,9 @@ double funlength(matrix a) {
 
 int main()
 {   
-    
+ 
+    arraylab();
+    return 0;
 
     //TODO: create structure matrix {m, n, pointer to array of doubles}
 
