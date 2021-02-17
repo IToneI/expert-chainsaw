@@ -21,9 +21,15 @@
     <ClCompile Include="arrays.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="arrays2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrays.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="arrays2.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

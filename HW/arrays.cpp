@@ -78,6 +78,13 @@ void mirror(char* L) {
 
 }
 
+
+
+
+
+
+
+
 void arraylab() {
 
 
@@ -102,3 +109,4 @@ void arraylab() {
 
 
 }
+

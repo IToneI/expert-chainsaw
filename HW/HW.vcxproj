@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="arrays.cpp" />
+    <ClCompile Include="arrays2.cpp" />
     <ClCompile Include="HW.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrays.h" />
+    <ClInclude Include="arrays2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

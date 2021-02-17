@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include<math.h>
-#include "arrays.h";
+#include "arrays.h"
+#include "arrays2.h"
 #define PI 3.14
 using namespace std;
 
@@ -88,51 +89,51 @@ double funlength(matrix a) {
 
 int main()
 {   
- 
-    arraylab();
-    return 0;
+    funaddarray();
+   // arraylab();
+   // return 0;
 
     //TODO: create structure matrix {m, n, pointer to array of doubles}
 
     //TODO: create a 10x10 matrix, fill with 1's
 
-    matrix a;
+    //matrix a;
     
 
-    int n = 10;
-    int m = 10;
-    double f = 1;
-    funinit(a, n, m);
-    funfill(a, f);
-    funprint(a);
+    //int n = 10;
+    //int m = 10;
+    //double f = 1;
+    //funinit(a, n, m);
+    //funfill(a, f);
+    //funprint(a);
    
 
    
     
 
     //TODO: create 10x1 matrix named 'vector', initialize with pi / 2 values
-    matrix vector;
-    funinit(vector, 10, 1);
-    funfill(vector, PI / 2);
-    funprint(vector);
+   // matrix vector;
+   // funinit(vector, 10, 1);
+   // funfill(vector, PI / 2);
+   // funprint(vector);
 
 
 
     //TODO: multiply matrix to vector 
     // and calculate its length
-    matrix c = timesmatrix(a, vector);
+   // matrix c = timesmatrix(a, vector);
 
 
-    //TODO: print answer
-    cout << funlength(c) << endl;
-    funprint(c);
+   // //TODO: print answer
+  //  cout << funlength(c) << endl;
+   // funprint(c);
 
 
 
 
 
-    fundel(a);
-    fundel(c);
-    fundel(vector);
+  //  fundel(a);
+  //  fundel(c);
+  //s  fundel(vector);
 
 }
